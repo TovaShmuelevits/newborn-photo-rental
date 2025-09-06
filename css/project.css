@@ -1,0 +1,16 @@
+*{
+    transition: 1.5s;
+} 
+body{
+    direction: rtl; 
+    margin-top: 0px;
+    font-family: 'Open Sans';
+    margin-left: 0px;
+    margin-right: 0px;
+    transition: 0.8ms;
+    background-color: rgb(255, 254, 246);
+}
+
+
+
+  

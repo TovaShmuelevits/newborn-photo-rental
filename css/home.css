@@ -1,0 +1,193 @@
+/* דף הבית */
+/* GLOBAL STYLES
+/* סגנונות גלובליים 
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+/* ריפוד מתחת לכותרת התחתונה וטקסט גוף בהיר יותר */
+body {
+    /* padding-top: 3rem; */
+    padding-bottom: 3rem;
+    color: rgb(var(--bs-tertiary-color-rgb));
+  }
+  
+  
+  /* CUSTOMIZE THE CAROUSEL
+  התאם אישית את  
+  -------------------------------------------------- */
+  
+  /* Carousel base class */
+  .carousel {
+    margin-bottom: 4rem;
+  }
+  /* Since positioning the image, we need to help out the caption 
+  מאז מיקום התמונה, אנחנו צריכים לעזור בכיתוב */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element 
+  הצהר על גבהים בגלל מיקום אלמנט img */
+  .carousel-item {
+    height:85vh ;
+  }
+  
+  
+  /* MARKETING CONTENT שיווק
+  -------------------------------------------------- */
+  
+  /* Center align the text within the three columns below the carousel
+  יישר למרכז את הטקסט בתוך שלוש העמודות מתחת ל */
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  
+  
+  /* Featurettes איו כזו מילה!
+  ------------------------- */
+  
+  .featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more    רווח את Bootstrap <hr> יותר */
+  }
+  
+  /* Thin out the marketing headings */
+  /* דלל את כותרות השיווק */
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  
+  @media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    /* הגדלה של תוכן ה */
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background-color: rgb(255, 255, 255) !important;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.btn-bd-primary {
+  --bd-violet-bg: #712cf9;
+  --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-violet-bg);
+  --bs-btn-border-color: var(--bd-violet-bg);
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: #6528e0;
+  --bs-btn-hover-border-color: #6528e0;
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #5a23c8;
+  --bs-btn-active-border-color: #5a23c8;
+}
+
+.bd-mode-toggle {
+  z-index: 1500;
+}
+
+.bd-mode-toggle .dropdown-menu .active .bi {
+  display: block !important;
+}
+.a{
+    background-image: url("../images/avizar.jpg")!important;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+   
+}
+.b{
+    background-image: url("../images/y.jpg")!important;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+   
+}
+.c{
+    background-image: url("../images/k.jpg")!important;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+ 
+}
+.gg{
+ background-image: url(../images/gg.jpg);
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.bb{
+  background-image: url(../images/ballons.jpg);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ }
+ .tt{
+  background-image: url(../images/tt.jpg);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ 
+ }
+
